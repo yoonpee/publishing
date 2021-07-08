@@ -1,0 +1,82 @@
+#A_Container{background:#f7f9f8;padding-top: 100px;}
+.sub_tit{ font-family: 'NEXON Lv2 Gothic Bold';font-size: 26px; color: #333;margin-bottom: 20px;}
+.sub_cont{font-weight: 300; color: #666; font-size: 20px; line-height: 29px;margin-bottom: 40px;}
+section .inner{padding: 0 10px;}
+
+.next_go button{background:#f7f9f8;z-index: 9;font-weight: 600; color:#ccc;padding: 15px 0; border-top: 1px solid #ddd; position: fixed;bottom: 0; width: 100%; left: 0;font-size: 18px;}
+.next_go button.active{background: #37c1d1; color: #fff;border-top: none;}
+
+/*본인인증*/
+.proof01 input[type="number"]::-webkit-outer-spin-button,
+.proof01 input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}
+.proof01 .input_box{background: #fff;border: 1px solid #ddd;border-radius: 8px;overflow: hidden;}
+.proof01 .input_box span{display: inline-block;width: 10px;float: left;line-height: 54px;}
+.proof01 input::placeholder{font-size: 18px; color: #aaa; font-weight: 400;}
+.proof01 input{border: none;border-radius: 5px;width: 100%;color: #333;font-family: 'Montserrat', sans-serif;font-size: 20px;padding: 15px;}
+.proof01 .input_box.active{border: 1px solid #37c1d1; }
+.proof01 .input_box.wrong{border: 1px solid #ff4848;}
+.proof01 input:nth-child(1){padding-right: 0;display: inline-block;float: left;width:55px}
+.proof01 input:nth-child(3){width: calc(100% - 65px);float: left;}
+.proof_ok{color: #37c1d1; font-size: 14px;font-weight: 400;margin-top: 5px;}
+.wrong_p{color: #ff4848; font-size: 14px;font-weight: 400;margin-top: 5px;}
+.input_box{position: relative;}
+.reset {position: absolute;right: 15px; top: 15px;display: none;}
+.reset.active{display: block;}
+.pop_up{display: none; position: fixed; width: 100%; height: 100%; background: rgba(0,0,0,0.5);left: 0; top: 0;z-index: 999999;}
+.pop_up .wrap{max-height:50vh;overflow-y: auto;width: 90%; max-width: 550px;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);background: #fff;text-align: center;border-radius: 15px;}
+.pop_up .wrap .box{position: relative;}
+.pop_up strong{display: block;font-family: 'NEXON Lv2 Gothic Bold';font-size: 20px; color: #333; margin: 15px 0;}
+.pop_up em{color: #666; display: block; font-size: 16px; line-height: 24px;}
+.pop_up .ok_img{display: block;margin: 0 auto; margin-bottom: 10px;margin-top:40px;width: 45px;}
+/* .pop_up .btn_g{position: absolute;bottom: 0; left: 0;width: 100%;} */
+.pop_up .btn_g{margin-top:40px;}
+.pop_up .btn_g button{width: 50%; float: left;font-weight: 600;font-size: 16px; padding: 15px 0;}
+.pop_up .btn_g button:nth-child(1){color:#aaa; background: #f3f7fb;}
+.pop_up .btn_g button:nth-child(2){color:#fff; background: #37c1d1;}
+
+/*약관동의*/
+
+.chk_box::after{display:block;content:'';clear:both}
+.chk_box input{display:none}
+.chk_box input+label{display:block;overflow:visible;cursor:pointer;margin-bottom:0}
+.chk_box label span{display:block;float: left;width:25px;height:30px;background:url(../images/sub/check.png);background-repeat:no-repeat;background-position:center;background-size:14px;margin-right: 10px;}
+.chk_box input[type=checkbox]:checked+label span{width:25px;height:30px;background:url(../images/sub/checked.png);background-repeat:no-repeat;background-position:center;background-size:25px;display: block;}
+.chk_box p{font-size: 16px; font-weight: 400; color: #666;}
+.agree .all_box{border-radius: 8px;border: 1px solid #37c1d1;  padding: 15px;background: #fff;margin-bottom: 15px;}
+.agree .all_box .chk_box p {color: #37c1d1; font-size: 18px; font-weight: 500;}
+.agree .list_agree{padding-left: 15px;}
+.agree .list_agree li{margin-bottom: 15px;width: 100%;clear: both;position:relative;padding-right: 40px;word-break: keep-all;}
+.agree .list_agree li::after{clear: both;content: ''; display: block}
+.agree .open_pop img{width:25px;}
+.agree .open_pop {position: absolute; right: 15px;top: 50%; transform: translateY(-50%);}
+
+
+/*약관동의팝업*/
+.agree .next_go button{background: #37c1d1; color: #fff;border-top: none;}
+.pop_up02 .next_go button{background: #37c1d1; color: #fff;border-top: none;}
+.pop_up02  .wrap{background: #f7f9f8;width: 100%;height: 100%;left: 0; top: 0; transform: none;max-height: 100%;max-width: 100%;border-radius: 0;padding: 0 15px;}
+.pop_h2{font-family: 'NEXON Lv2 Gothic Bold';padding-right: 30px; word-break: keep-all;text-align: left;font-size: 26px; color: #333;margin-top: 40px; margin-bottom: 20px;position: relative;}
+.box_02{position: relative;}
+.x_btn{position: absolute;top:0;right: 0;}
+.x_btn img{width: 18px;}
+.w_box{background: #fff;border-radius: 8px;height: 70vh;text-align: left;width: calc(100% - 20px); padding: 10px;margin: 0 10px;}
+.w_box p{color: #999; font-weight: 400; font-size: 16px; }
+.w_box strong{display: block;font-size: 18px;}
+/* <!-- 자필서명팝업 --> */
+.sign_pop .sub_cont{text-align: left;}
+.sign_pop .wrap{max-height: 100%;min-height: 60vh;left: 0;bottom: 0; transform: none; top: auto;width: 100%; max-width: 100%;padding: 0 15px; border-radius: 30px 30px 0 0;}
+.sign_pop .sign_box{height: 220px;position: relative;background: #fff; border-radius: 8px;box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1);margin-bottom: 30px;}
+.sign_pop .sign_check{margin-bottom: 30px;width: 100%;background:#37c1d1; padding: 15px 0; color: #fff; font-weight: 600;font-size: 18px; border-radius: 8px;}
+.sign_pop .sign_check02{margin-bottom: 30px;width: 100%;background:#f3f7fb; padding: 15px 0; color: #aaa; font-weight: 600;font-size: 18px; border-radius: 8px;}
+.sign_pop .reset02{position: absolute;right:10px;top: 10px;}
+.sign_pop .reset02 img{width: 13px;}
+
+.sign_pop #sign{width: 100%;height: 100%;}
+
+/*신청완료*/
+.result .inner{position: relative;min-height: 100vh;}
+.result .box{position: absolute;left: 50%; top:50%; transform: translate(-50%,-50%);width: 100%;text-align: center;}
+.result img{display: block;margin: 0 auto; margin-bottom: 10px;margin-top:40px;width: 45px;}
+.result strong{display: block;font-family: 'NEXON Lv2 Gothic Bold';font-size: 20px; color: #333; margin: 15px 0;}
+.result em{color: #666; display: block; font-size: 16px; line-height: 24px;}
+.result .next_go button{background: #37c1d1; color: #fff;border-top: none;}

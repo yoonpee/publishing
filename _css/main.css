@@ -1,0 +1,35 @@
+.visual{width: 100%;}
+.visual .v_img_box{position: relative;height: 90vw;max-height: 600px;}
+.visual .v_img_box img{position: absolute;width: 100%;min-height: 100%;left: 50%; top: 50%; transform: translate(-50%,-50%);}
+section .inner{padding: 20px;}
+.visual .swiper-container-horizontal>.swiper-scrollbar{bottom:110px;width: 95%;}
+.visual .swiper-scrollbar-drag{background: #fff;border-radius: 0;}
+.visual .swiper-container-horizontal>.swiper-scrollbar{background:rgba(255,255,255,0.2);opacity: 1 !important;height: 3px;}
+
+
+.intro{background: #fff; border-radius: 50px 50px 0 0 ; margin-top: -90px;z-index: 99; position: relative;}
+.intro .left{float: left;width: 60%;}
+.intro .right{float: right;width: 40%;}
+.intro .left h2{ font-family: 'NEXON Lv2 Gothic Bold'; font-size:27px;color: #333;}
+.intro .left p{font-size: 16px;   font-family: 'NEXON Lv2 Gothic';color: #666;}
+.intro .left p strong{font-size: 20px; color: #333; font-family: 'NEXON Lv2 Gothic';}
+.intro .right a{float: right;border-radius: 50px;padding: 10px;background:#37c1d1; color: #fff; font-size: 16px; font-family: 'NEXON Lv2 Gothic Medium'; }
+.intro .right a img{margin-left: 5px;width: 16px; vertical-align: middle;}
+
+.title_sec{font-family: 'NEXON Lv2 Gothic Bold';color: #333; font-size: 20px; position: relative;margin-bottom: 10px;padding-left: 10px;}
+.title_sec::before{position: absolute;content: ''; width: 6px; height: 6px;border: 3px solid #37c1d1; border-radius: 50%;top: 6px; left: -10px;}
+.time .title_sec{display: inline-block;}
+.time ul{float: right;}
+.time ul::after{display: block;clear: both;content: '';}
+.time ul li{border-radius: 50px;font-weight: 400;padding: 4px 7px;font-size: 15px;float: left;}
+.time ul li:nth-child(1){color: #37d183;  border: 1px solid #37d183; margin-right: 3px;}
+.time ul li:nth-child(2){color: #dd79e1;  border: 1px solid #dd79e1}
+.time table{width: 100%;margin: 0 auto;margin-top: 15px;}
+.time table th{text-align: left;font-family: 'NEXON Lv2 Gothic';font-size: 16px; color: #999; padding: 3px;}
+.time table td{text-align: right;font-size: 16px; color: #333;font-family: 'NEXON Lv2 Gothic';padding: 3px;}
+.time table td.num{font-family: 'Montserrat', sans-serif;font-weight: 400;}
+
+.map .locate{font-family: 'NEXON Lv2 Gothic';color: #999;font-size: 16px;word-break: keep-all;padding-left:10px;margin-bottom: 10px;}
+
+.foot_link{z-index: 99;font-size: 18px; color: #fff; font-weight: 500;background: #37c1d1;text-align: center; position: fixed;left: 0; width: 100%; bottom: 0;padding: 10px 0; }
+#daumRoughmapContainer1623980373260{width: 100%;height: 200px;}
